@@ -9,10 +9,8 @@ Examples:
 function hasOddNumber(arr) {
     return arr.some(el => {
         return el % 2 !== 0;
-
     });
 }
-
 
 //Write a function called hasAZero which accepts a number and returns true if that number contains at least one zero. Otherwise, the function should return false
 
@@ -26,7 +24,6 @@ function hasAZero(num) {
     return nums.some(el=>{
         return el === '0'
     })
-
 }
 
 /*
